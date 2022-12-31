@@ -7,12 +7,19 @@ class Hero:
 class Hero_super(Hero):
     dotty = 'dotty'
 
-    def __str__(self):
+    def new(self):
         print(f'{self.name}')
 
-    def new(self):
+    def no(self):
         print('it is super_hero')
 
+    def __str__(self):
+        return f'{self.name} {self.abyliti}'
+
+x = Hero_super('Adam', 'fly')
+x.new()
+x.no()
+print(x)
 
 # ВИРУС
 
